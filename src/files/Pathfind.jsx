@@ -3,10 +3,10 @@ import './Pathfind.css';
 import Node from "./Node/Node";
 import { dijkstra, getNodesInShortestPathOrder } from "./Algorithm/dijkstra.jsx";
 
-let START_ROW =7 ;
-let START_COL= 10;
-let END_ROW = 6;
-let END_COL =27;
+let START_ROW =2 ;
+let START_COL= 2;
+let END_ROW = 5;
+let END_COL =5;
 let WALL_TOGGLE=false;
 
 export default class Pathfind extends React.Component{
